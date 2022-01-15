@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <title>Portifolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+    body {
+      font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+  </style>
+
+  <body>
+
+
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+        <a href="#home" class="w3-bar-item w3-button">Seja Bem Vindo</a>
+        <!-- Menu .  -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+          <a href="#menu" class="w3-bar-item w3-button">Obejetivo</a>
+          <a href="#contact" class="w3-bar-item w3-button">Contato</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+      <img class="w3-image" src="spedo.jpg" alt="Hamburger Catering" width="1600" height="800">
+      <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+        <h1 class="w3-xxlarge">Christian</h1>
+      </div>
+    </header>
+
+    <!-- Conteúdo da página -->
+    <div class="w3-content" style="max-width:1100px">
+
+      <!-- informacoes -->
+      <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img src="spedo2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+          <h1 class="w3-center">Sobre Christian</h1><br>
+          <p class="w3-large"> Me chamo Christian tenho 27 anos, moro no Rio de Janeiro, sou formado em Analise e
+            desenvolvimento de sistemas, pela UniSaoJose campus de realengo. Sou bancario e programador nas horas vagas.
+            Minha paixao e tecnologia e jogos. </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Projetos -->
+      <div class="w3-row w3-padding-64" id="menu">
+        <div class="w3-col l6 w3-padding-large">
+          <h1 class="w3-center"> Objetivo </h1><br>
+          Desenvolvedor dedicado com 1 ano de experiência. Tenho experiência basica e intermediaria em JavaScript, CSS e
+          HTML, programando diversos tipos de aplicações para desktop. Com foco
+          em otimizar processos, criacao de paginas entre outros. Sempre buscando novas oportunidades afim de atender as
+          necessidades do cliente.
+        </div>
+
+        <div class="w3-col l6 w3-padding-large">
+
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Contatos  -->
+      <div class="w3-container w3-padding-64" id="contact">
+        <h1>Contato</h1><br>
+        <p>E-mail: Chrhurley@hotmail.com</p>
+        <p>Whatsapp: (21) 964320166</p>
+        <p>Instagran @chrnah.</p>
+
+        <!--Avaliacoes-->
+        <p class="w3-text-blue-grey w3-large"><b>Avalie o Desenvolvedor</b></p>
+
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="Nome"></p>
+          <p><input class="w3-input w3-padding-16" type="number" placeholder="Nota" required name="Quantidade">
+          </p>
+          <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Data" required name="Data"
+              value="2020-11-16T20:00"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Comentarios" required name="Descricao"></p>
+          <p><button class="w3-button w3-light-grey w3-section" type="submit">Enviar</button></p>
+        </form>
+      </div>
+
+      <!-- final-->
+    </div>
+
+    <!-- rodape -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+    </footer>
+
+  </body>
+
+</html>
